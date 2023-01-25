@@ -41,8 +41,6 @@ public class CatInTheHat {
             os.flush();
             os.close();
 
-            // Close a file
-            is.close();
         } catch (FileNotFoundException ex) {
             System.out.printf("IO exception: %s\n", ex.getMessage());
             ex.printStackTrace();
